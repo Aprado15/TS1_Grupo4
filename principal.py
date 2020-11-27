@@ -1,6 +1,6 @@
 import mi_lib
 
-print(f"El número es primo: {mi_lib.esPrimo(2232)}")
+print(f"El número es primo: {mi_lib.esPrimo(222)}")
 
 print(f"El factorial del número es: {mi_lib.esFactorial(5213)}")
 
