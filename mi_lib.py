@@ -10,7 +10,7 @@ def esPrimo(num):
 
 def esFactorial(n):
     f=1
-    for i in range(1, n+1):12341
+    for i in range(1, n+1):
         f *= i
     return f
 
