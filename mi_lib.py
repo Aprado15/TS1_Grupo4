@@ -31,7 +31,3 @@ def esCapicua(numi):
             return True
         else:
             return False
-  
-
-
-    
