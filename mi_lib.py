@@ -20,7 +20,7 @@ def esRaiz(nume):
     x= nume/2
     for i in range (20):
         if x * x == nume:
-            return True
+            return False
         else:
             x= (x + (nume/x))/2
     return True 
