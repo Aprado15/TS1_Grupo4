@@ -43,6 +43,6 @@ def raizCuadrada(n):
     for k in range(20):
         raiz = (1/2)*(raiz + (n / raiz))
 
-    print raiz
+print raiz
 
 >>>>>>> Stashed changes
