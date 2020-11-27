@@ -30,7 +30,7 @@ def esRaiz(nume):
 def esCapicua(numi):
     if numi >= 0:
         if str(numi) == str(numi)[::-1]:
-            return False
+            return True
         else:
             return False
   
