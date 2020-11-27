@@ -1,3 +1,4 @@
+import math
 def esPrimo(num):
     if num == 1 or num ==0:
         return False
@@ -8,17 +9,14 @@ def esPrimo(num):
             if num % i == 0:
                 return False
             elif num % i !=0 and i==num-1:
-                return True            
-
-print (num)
+                return True 
 
 def factorial (*fac):
     for x in fac:
         fact=1
         for y in range(1,x+1):
             fact=fact*y
-        
-    print fac
+        print fact
 
 def esCapicua(cap):
 #Intervalo inferior
@@ -39,8 +37,7 @@ for i in range(a,b+1):
 print("Total de Capicuas:",c)
 
 
-
 def esRaiz(x): 
     math.sqrt(x)
-
+    
 print(x)
