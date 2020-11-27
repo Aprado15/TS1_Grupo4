@@ -15,7 +15,7 @@ def factorial (*fac):
         fact=1
         for y in range(1,x+1):
             fact=fact*y
-        print fact
+        return *fac
 
 def esCapicua(cap):
 #Intervalo inferior
@@ -33,10 +33,10 @@ for i in range(a,b+1):
         c+=1
         print(cap)
         
-print("Total de Capicuas:",c)
+        return cap
 
 
 def esRaiz(x): 
     math.sqrt(x)
-    
-print(x)
+
+return x
