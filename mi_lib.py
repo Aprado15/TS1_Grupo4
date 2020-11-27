@@ -23,6 +23,11 @@ def esFactorial(n):
         f *= i
     return f
 
+def esFactoriales(nani):
+    f=1
+    for i in range(nani):
+        f *= nani-i
+    return f
 
 def esRaiz(nume):
     x= nume/2
