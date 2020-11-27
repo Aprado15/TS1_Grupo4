@@ -39,10 +39,8 @@ print("Total de Capicuas:",c)
 
 
 def raizCuadrada(n):
-    raiz = n/2    #La estimación inicial será 1/2 de n
-    for k in range(20):
-        raiz = (1/2)*(raiz + (n / raiz))
+    print (n**.5)
 
-print raiz
+
 
 >>>>>>> Stashed changes
