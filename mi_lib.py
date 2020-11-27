@@ -34,7 +34,7 @@ def esCapicua(numi):
         else:
             return True
         
-        
+       
        
         
   
