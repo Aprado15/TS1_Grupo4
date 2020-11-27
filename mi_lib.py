@@ -15,7 +15,6 @@ def esFactorial(n):
     return f
 
 
-
 def esRaiz(nume):
     x= nume/2
     for i in range (20):
