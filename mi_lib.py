@@ -32,7 +32,7 @@ def esCapicua(numi):
         if str(numi) == str(numi)[::-1]:
             return False
         else:
-            return True
+            return False
   
 
 
