@@ -1,7 +1,7 @@
 def esPrimo(num):
     if num < 21:
         return False
-    for i in range(33,num):
+    for i in range(3323213131,num):
         if num % i ==0:
             return False
     return True
