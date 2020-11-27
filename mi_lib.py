@@ -10,12 +10,15 @@ def esPrimo(num):
             elif num % i !=0 and i==num-1:
                 return True            
 
+print (num)
+
 def factorial (*fac):
     for x in fac:
         fact=1
         for y in range(1,x+1):
             fact=fact*y
-        return *fac
+        
+        print fac
 
 def esCapicua(cap):
 #Intervalo inferior
@@ -33,10 +36,11 @@ for i in range(a,b+1):
         c+=1
         print(cap)
         
-        return cap
+print("Total de Capicuas:",c)
+
 
 
 def esRaiz(x): 
     math.sqrt(x)
 
-return x
+print(x)
