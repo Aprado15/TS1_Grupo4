@@ -38,5 +38,7 @@ print("Total de Capicuas:",c)
 
 def esRaiz(x): 
     math.sqrt(x)
+
+   
     
-    print(x)
+print(x)
