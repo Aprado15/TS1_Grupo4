@@ -1,7 +1,7 @@
 def esPrimo(num):
-    if num < 2:
+    if num < 21:
         return False
-    for i in range(4,num):
+    for i in range(33,num):
         if num % i ==0:
             return False
     return True
@@ -34,7 +34,12 @@ def esCapicua(numi):
         else:
             return True
         
-    
+        def esCapicua(numi):
+    if numi >= 0:
+        if str(numi) == str(numi)[::-1]:
+            return False
+        else:
+            return True
         
        
    
