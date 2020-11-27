@@ -6,4 +6,4 @@ print(f"El factorial del número es: {mi_lib.esFactorial(3)}")
 
 print(f"El número tiene raíz entera: {mi_lib.esRaiz(64)}")
 
-print(f"El número es capicúa: {mi_lib.esCapicua(10107)}")
+print(f"El número es capicúa: {mi_lib.esCapicua(10101)}")
