@@ -7,7 +7,7 @@ def esPrimo(num):
         for i in range(2, num):
             if num % i == 0:
                 return False
-            elif num % divisor !=0 and i==num-1:
+            elif num % i !=0 and i==num-1:
                 return True            
 
 def factorial (*fac):
