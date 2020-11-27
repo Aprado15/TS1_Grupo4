@@ -1,9 +1,9 @@
 import mi_lib
-print(f"El numero es primo {mi_lib.esPrimo(7)}")
+print(esPrimo(3))
 
-print(f"El factorial del número ingresado es {mi_lib.factorial(5)}")
+print(esFactorial(5))
 
-print(f"La raiz entera del número ingresado es {mi_lib.raizCuadrada(144)")
+print(esRaiz(36))
 
-print(f"Los números capicúas son {mi_lib.esCapicua}")
+print(esCapicua(10107))
 
