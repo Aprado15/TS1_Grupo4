@@ -35,7 +35,7 @@ for i in range(a,b+1):
         
 print("Total de Capicuas:",c)
 
-
+import math
 def esRaiz(x): 
     math.sqrt(x)
 print(x)
