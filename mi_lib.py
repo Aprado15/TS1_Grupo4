@@ -1,6 +1,6 @@
-import math
 <<<<<<< Updated upstream
 =======
+import math
 def esPrimo(num):
     if num == 1 or num ==0:
         return False
@@ -11,9 +11,7 @@ def esPrimo(num):
             if num % i == 0:
                 return False
             elif num % i !=0 and i==num-1:
-                return True            
-
->>>>>>> Stashed changes
+                return True 
 
 def factorial (*fac):
     for x in fac:
@@ -45,7 +43,5 @@ def esRaiz(x):
     math.sqrt(x)
     
 print(x)
-
-
-
+>>>>>>> Stashed changes
 
