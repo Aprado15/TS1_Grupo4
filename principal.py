@@ -1,5 +1,5 @@
 import mi_lib
-print(esPrimo(3))
+print(esPrimo(2))
 
 print(esFactorial(5))
 
