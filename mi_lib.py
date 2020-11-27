@@ -18,7 +18,7 @@ def factorial (*fac):
         for y in range(1,x+1):
             fact=fact*y
         
-print fac
+    print fac
 
 def esCapicua(cap):
 #Intervalo inferior
