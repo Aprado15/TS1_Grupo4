@@ -1,3 +1,5 @@
+<<<<<<< Updated upstream
+=======
 import math
 def esPrimo(num):
     if num == 1 or num ==0:
@@ -42,4 +44,4 @@ def esRaiz(x):
     
 print(x)
 
-
+>>>>>>> Stashed changes
