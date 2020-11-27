@@ -23,7 +23,7 @@ def esRaiz(nume):
             return True
         else:
             x= (x + (nume/x))/2
-    return False
+    return False 
 
 
 
@@ -32,7 +32,7 @@ def esCapicua(numi):
         if str(numi) == str(numi)[::-1]:
             return False
         else:
-            return True
+            return True 
   
 
 
