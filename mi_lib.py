@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 def esPrimo(num):
     if num == 1 or num ==0:
         return False
@@ -40,7 +39,3 @@ print("Total de Capicuas:",c)
 
 def raizCuadrada(n):
     print (n**.5)
-
-
-
->>>>>>> Stashed changes
