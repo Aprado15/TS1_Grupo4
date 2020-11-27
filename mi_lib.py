@@ -4,7 +4,7 @@ def esPrimo(num):
     for i in range(2,num):
         if num % i ==0:
             return False
-    return False
+    return True
 
 
 
@@ -30,13 +30,6 @@ def esRaiz(nume):
 def esCapicua(numi):
     if numi >= 0:
         if str(numi) == str(numi)[::-1]:
-            return True
+            return False
         else:
             return True
-        
-        
-        
-        
-        
-       
-
