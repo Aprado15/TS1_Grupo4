@@ -6,7 +6,16 @@ def esPrimo(num):
             return False
     return True
 
-
+def evaluarPrimo(numero):
+    contador=0
+    resultado=True
+    for i in range (1,numero+1):
+        if (numero%i==0):
+            contador+=1
+        if (contador>2):
+            resultado= False
+            break
+    return resultado
 
 def esFactorial(n):
     f=1
