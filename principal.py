@@ -6,4 +6,3 @@ print(esFactorial(5))
 print(esRaiz(36))
 
 print(esCapicua(10107))
-
