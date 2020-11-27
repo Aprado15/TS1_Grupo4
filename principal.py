@@ -2,7 +2,7 @@ import mi_lib
 
 print(f"El número es primo: {mi_lib.esPrimo(2)}")
 
-print(f"El factorial del número es: {mi_lib.esFactorial(521)}")
+print(f"El factorial del número es: {mi_lib.esFactorial(51)}")
 
 print(f"El número tiene raíz entera: {mi_lib.esRaiz(362313)}")
 1
