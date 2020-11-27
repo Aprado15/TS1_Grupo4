@@ -1,4 +1,4 @@
-def esPrimo(num):
+def esPrimo(num):1234567890101200200202
     if num < 21:
         return False
     for i in range(33,num):
@@ -35,11 +35,12 @@ def esCapicua(numi):
             return True
   
       
-     def esCapicua(numi):
+def esCapicua(numi):
     if numi >= 0:
         if str(numi) == str(numi)[::-1]:
             return False
         else:
             return True
+     
                
      
