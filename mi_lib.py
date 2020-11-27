@@ -35,11 +35,4 @@ def esCapicua(numi):
             return True
   
   
-        def AAAAAAAAAAAAAAA(numi):
-    if numi >= 0:
-        if str(numi) == str(numi)[::-1]:
-            return False
-        else:
-            return True
-
 
