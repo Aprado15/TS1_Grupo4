@@ -32,6 +32,7 @@ for i in range(a,b+1):
         cap=''.join(num_list)
         c+=1
         print(cap)
+        
 print("Total de Capicuas:",c)
 
 
