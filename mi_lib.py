@@ -1,4 +1,3 @@
-
 def esPrimo(num):
     if num == 1 or num ==0:
         return False
