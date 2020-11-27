@@ -19,11 +19,10 @@ def esRaiz(nume):
     x= nume/2
     for i in range (20):
         if x * x == nume:
-            return False
+            return True
         else:
             x= (x + (nume/x))/2
-    return True 
-
+    return False
 
 
 def esCapicua(numi):
