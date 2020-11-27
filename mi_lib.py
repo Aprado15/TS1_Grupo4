@@ -23,7 +23,7 @@ def esRaiz(nume):
             return True
         else:
             x= (x + (nume/x))/2
-    return False 
+    return True 
 
 
 
